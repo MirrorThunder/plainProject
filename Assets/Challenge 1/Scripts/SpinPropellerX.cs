@@ -7,9 +7,9 @@ public class SpinPropellerX : MonoBehaviour
     {
         
     }
-
+	public float propellorSpeed;
     // Update is called once per frame
-	private float propellorSpeed = 500; // 1000;
+	// private float propellorSpeed = 500; // 1000;
 	void Update() {
 		transform.Rotate(Vector3.forward, propellorSpeed * Time.deltaTime);
 	}

@@ -136,6 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56acc53cafe5c12f78ba34cd40b0a60d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpinPropellerX
+  propellorSpeed: 1000
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,6 +1053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   rotationSpeed: 100
+  verticalInput: 0
 --- !u!65 &825415036
 BoxCollider:
   m_ObjectHideFlags: 0
